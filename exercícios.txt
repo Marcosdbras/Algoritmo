@@ -1,0 +1,3 @@
+Exercício
+
+1) Faça um algorítmo onde uma pessoa irá pegar um empréstimo a juros simples podendo dividir o valor total  em até uma quantidade x de parcelas.
