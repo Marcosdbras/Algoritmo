@@ -1,3 +1,128 @@
+Uma receita de bolo é considerado um algorítmo
+
+Tipos de estrutras condicionais
+Simples, composta, aninhadas e escolha caso
+
+Mostrar loop infinito
+
+
+
+
+
 Exercício
 
-1) Faça um algorítmo onde uma pessoa irá pegar um empréstimo a juros simples podendo dividir o valor total  em até uma quantidade x de parcelas.
+
+
+1) Faça um algorítmo no scratch e no visualg onde uma pessoa irá pegar um empréstimo a juros simples podendo dividir o valor total  em até uma quantidade x de parcelas.
+
+2) Criar um algorítmo no visualg onde irá perguntar o ano que estamos, o ano de nascimento, e o mesmo deverá apresentar a idade da pessoa e se a idade for maior ou igual a 21 deverá aparecer na tela que a pessoa já possue a maioridade, caso contrário, deverá aparecer na tela que a pessoa é menor de idade.
+
+3) Criar um algorítmo no visualg onde o usuário solicitará um número e o sistema e analisará o mesmo e informará se o valor é impar ou par.
+
+4) Criar um algorítmo que faça o calculo do Índice de massa corpórea (IMC) de um indivíduo, lembrando que a fórmula de calculo é: IMC = Massa / Altura ^ 2 e de acordo com IMC descoberto informar se a pessoa está no peso ideal ou não. O peso ideal é definido pelo IMC entre 18,5 e 25. (Formatação IMC:5:2)
+
+5) Criar um algorítmo que solicite para pessoa ano atual, ano em que nasceu e após colher estas informações o sistema deverá informar para o usuário se ele está apta ou inapta para dirigir.
+
+6) Criar um algorítmo que calcula a média de notas de 4 bimestres de uma determinada matéria e logo após o processamento da média o sistema deverá mostrar se o aluno está aprovado ou reprovado levando-se em consideração que a média de aprovação deverá ser 7.
+
+*** Condicional aninhada ***
+
+7) Criar algorítmo que informe se o aluno está Aprovado, reprovado ou recuparação
+
+8) Criar algorítmo que mostre a nota do aluno de acordo com conceito ou aproveitamento: 
+A: Média de 9 até 10
+B: Média de 8 até 8,9
+c: Média de 7 até 7,9
+D: Média de 6 até 6,9
+E: Média de 5 até 5,9
+F: Média abaixo de 5
+
+
+9) Criar um algorítmo que faça a analise de partidas de futebol entre 2 times, e a partir da diferente de gols ele deve indicar o conceito do jogo.
+
+diferença de 0         : empate
+diferença de 1 até 3   : partida normal
+diferença de 5 pra cima: goleada
+
+
+
+10) Criar algorítmo que calcule IMC e retorna diversas faixas do IMC
+
+
+*** Escolha caso *** 
+Estrutura escolha não serve para testar faixa de valores
+Só aceita comparações para valores inteiro
+Algumas linguagens aceitam comparações de caracteres
+No escolha caso existe a possibilidades de testar vários valores para um bloco de execução: [valor1, valor2, etc.]
+
+
+switch (variavel)   
+
+case valor [valor1, valor2, etc.]
+	bloco A
+case valor [valor1, valor2, etc.]
+	bloco b
+outroCaso
+	bloco c
+
+
+fimswitch
+
+11) Criar algorítmo que receba valores predefinidos de doação e também outros valores através de opções: 
+[1]: R$ 10,00 / [2]:R$25 / [3]:R$50 / [4]: Outros valores e [5]:Cancela valor. Após a doação o algorítmo deve apresentar a seguinte mensagem: "Obrigado por ter doado: R$ x valor"
+
+12) Criar um algorítmo que solicite nome, salario e qtde de dependentes, caso o funcionário não tenho nenhum dependente ele não terá salário familia, caso tenha 1,2 ou 3 dependente o seu salário família será 10% do salário dele, caso tenha 4,5 ou 6 dependentes o funcionário receberá 15% de salário família que também será calculado em cima do salário dele, caso seja outro número de dependentes o funcionário recebrá 18% de salário família.
+
+SalFam:5:2
+
+
+*** Estrutura de repetição ***
+Enquanto (Não arrumar a cama) faça
+	castigo
+FimEnquanto
+liberado
+
+
+mão <- 0
+Enquanto (mão <= 5) faça
+	troca
+	mão <- mão + 1
+FimEnquanto
+
+
+13) Crie um algorítmo que conte de 0 até 10 e enquanto conta escreva linha a linha os valores do contador
+
+14) Crie um algorítmo que conte de 0 até 10 e mostre somente os números pares
+
+15) Crie um algorítmo que calcule a tabuada de um número previamento requisitado
+
+16) Crie um algorítmo que calcule a tabuada de 1 até 10
+
+17) Crie um algorítmo que realize uma contagem regressiva
+
+18) Crie um algorítmo que peça um número ao usuário e faça uma contagem de 0 até o número solicitado
+
+19) Crie um algorítmo que peça um número de contagem e salto e faça um loop de acordo com a solicitação do usuário
+
+20) Crie um algorítmo que peça um número a cada interação dentro de um loop de 10 repetições, some estes números digitados e mostre no final do loop o valor total deste números digitados.
+
+21) Crie um algorítmo que peça um número a cada interação dentro de um loop de 10 repetições e informe ao final do loop o maior número que foi digitado
+
+22) Crie um algorítmo que peça um número a cada interação dentro de um loop de 10 repetições e informe ao final do loop o menor número que foi digitado 
+
+23) Crie um algorítmo que peça ao usuário um número inicial e final e faça uma contagem com este números, porém, caso a pessoa digite o número inicial maior que o final o algorítmo deve detectar e fazer uma contagem regressiva
+
+24) Crie um algorítmo que peça ao usuário que digite um número x de alunos e respectivas notas e ao final do loop informe qual foi a maior nota e o aluno que tirou a nota 
+
+
+
+
+
+
+
+
+
+
+    
+
+ 
