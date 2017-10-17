@@ -82,13 +82,24 @@ Enquanto (Não arrumar a cama) faça
 FimEnquanto
 liberado
 
-
+Exemplo 1
++++++++++++++++++++++++++++++++++++
 mão <- 0
 Enquanto (mão <= 5) faça
 	troca
 	mão <- mão + 1
 FimEnquanto
++++++++++++++++++++++++++++++++++++
 
+
+Exemplo 2: Contagem até 10
++++++++++++++++++++++++++++++++++++
+C <- 1
+Enquanto (C <= 10) faca
+   EscrevaL(C)
+   C <- C + 1
+FimEnquanto 	
++++++++++++++++++++++++++++++++++++
 
 13) Crie um algorítmo que conte de 0 até 10 e enquanto conta escreva linha a linha os valores do contador
 
@@ -114,7 +125,120 @@ FimEnquanto
 
 24) Crie um algorítmo que peça ao usuário que digite um número x de alunos e respectivas notas e ao final do loop informe qual foi a maior nota e o aluno que tirou a nota 
 
+*** Expressão Repita  ***
 
+
+Exemplo 3
++++++++++++++++++++++++++++++++++++++++
+Repita
+   Bloco
+Até (Expressao ocorrer)
++++++++++++++++++++++++++++++++++++++++
+
+Exemplo 4: Contagem até 10
++++++++++++++++++++++++++++++++++++++++
+C <- 1
+repita
+  escrevaL(C)
+  C <- C + 1
+Ate (C > 10)
++++++++++++++++++++++++++++++++++++++++ 	
+	
+25) Crie um algorítmo que faça a soma de vários números digitados pelo usuário, durante a inserção o algorítmo deve perguntar ao usuário se ele deseja continuar colocando valores e somando-os,
+a estrutura do teste deve permitir sempre digitar um primeiro valor.
+
+26) Crie um algorítmo que conte de 1 até 10 usando seguinte teste lógico: cont > 10
+
+27) Crie um algorítmo que verifique quantos números digitados pelo usuário são negativos
+
+28) Crie um algorítmo que calcule o fatorial de um número
+	Ex. Fatorial = 5 * 4 * 3 * 2 * 1 =  120
+
+29) Crie um algorítmo que calcule fatorial de vários números digitados pelo usuário e só pare de pedir um númenro para fatorial se o usuário decidir não calcular mais nenhum número
+
+30) Crie um algorítmo que verifique se um número é primo ou não, lembrando que todo número primo, na contagem entre 1 e o mesmo, só é divisível por 1 e por ele próprio
+
+31) Crie um algorítmo que apresente um menu de escolha com seguintes opções:
+
+========================
+Conte
+========================
+
+[1] De 1  até 10
+[2] De 10 até 1
+[3] Sair
+
+Digite opção:______
+
+Resposta: 10.. 9.. 8.. 7.. 6.. 5.. 4.. 3.. 2.. 1..
+
+32) Crie um algorítmo que apresente seguinte interação:
+
+==========================
+Responda
+==========================
+Genero..[M/F]:
+Idade........:
+Cor do cabelo:
+--------------------------
+[1] Preto
+[2] Castanho
+[3] Loiro
+[4] Ruivo
+
+Escolha opção:
+
+Quer continuar? [s/n]
+
+No final, quando o usuário digitar [n] o algorítmo deve mostrar
+Quantos homens, mais de 18 anos, cabelo castanho tem e quantas mulheres, entre 25 e 30 anos e loiras tem
+
+
+Exemplo 5
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Para variavel <- inicio ate fim [passo salto] faca
+    bloco
+FimPara
+
+Exemplo 6: Contagem de 1 até 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Para C <- 1 ate 10 passo 1 faca
+   EscrevaL(C)
+FimPara
+
+33) Crie um algorítmo que conte de 1 até 10
+34) Crie um algoritmo que conte de 10 até 1 utilizar passo -1
+
+A estrutura Para só é recomendável quando você sabe exatamente quantos interações deverá ter no loop
+
+35) Crie um algorítmo que apresente números pares
+35) Crie uma algorítmo que apresente contagem regressiva
+
+	Escreva("Digite um valor")
+	Leia(V)
+	Se( V % 2 = 1 ) então
+		V <- V -1
+	FimSe
+	Para CONT <- V ate 0 passo -2 faca
+		EscrevaL(CONT)
+	FimPara
+
+
+36) Crie um algorítmo que verifique se alguns valores digitados pelo usuário estão entre 0 e 10
+    o algorítmo tem que dar como mensagem final: Existem x valores digitados que estão entre 0 e 10
+
+37) Crie um algorítmo que exiba a soma entre os números impares digitados 
+
+ 
+38) Crie um algorítmo que exiba a seguinte combinação:
+
+1,1 2,1 3,1
+1,2 2,2 3,2
+1,3 2,3 3,3
+
+
+http://escoladeimportadores.com/
+https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration
 
 
 
