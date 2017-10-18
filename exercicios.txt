@@ -267,7 +267,92 @@ FimProcedimento
 41) Faça um algorítmo que peça o nome e o peso de uma pessoa e após o usuário entrar com esta informação o programa deverá apresentar o nome e maior peso no topo da tela, ou seja, toda vez 
 o usuário escrever um nome o algorítmo devará apagar a tela, apresentar o maior peso e pedir o próximo nome
 
+--------------------------------------
+Detector de pesados
+Maior peso até agora: 0 kg
+--------------------------------------
+Digite o nome: 
+Digite o peso de <<nome>>:
+
+
+
 42) Faça um algorítmo para verificar se determinado número é par ou impar
+
+*** Passagem de parâmetro por valor ****
+Procedimento soma(A, B:Inteiro)
+  Inicio
+
+    Bloco de comandos
+
+  FimProcedimento
+
+Inicio
+
+  x <- 5
+  y <- 3
+  soma(x,y)
+
+fimalgorítmo
+
+
+*** Escopo da variável ***
+A e B é Local
+X e Y é global
+
+*** Passagem de parâmetro por referência ***
+
+Procedimento soma(var A, B:Inteiro)
+  Inicio
+
+    A <- A + 1
+    B <- B + 2
+
+  FimProcedimento
+
+Inicio
+
+  x <- 5
+  y <- 3
+  soma(x,y)
+
+fimalgorítmo
+
+
+*** Funções ****
+
+funcao soma(A,B:Inteiro) : Inteiro
+var 
+  S: Inteiro
+Inicio
+
+   S <- A + B
+
+   Retorne S
+
+FimFuncao
+
+Inicio
+
+  N1 <- 5
+  N2 <- 4
+  RES <- Soma(N1,N2)
+  EscrevaL("A soma é", RES)	
+
+FimAlgoritmo
+
+*** Funcões prontas do visualg ***
+Compr(String)
+Copia(String,inicio,qtde)
+Maiusc(String)
+Minusc(String)
+Pos(Substring,String)
+Asc(Caracter)
+Carac(Integer)
+
+43) 
+
+
+
 
  
  
