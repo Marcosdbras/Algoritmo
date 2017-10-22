@@ -349,8 +349,56 @@ Pos(Substring,String)
 Asc(Caracter)
 Carac(Integer)
 
-43) 
+*** Variáveis compostas - vetores unidimensional***
 
+n:vetor[1..4] de inteiro
+
+
+n[1] <- 3
+
+para i <- 1 ate 4 faca
+  leia(n[i])
+fimPara
+
+
+para i <- 1 ate 4 faca
+  Escreva(n[i])
+fimPara
+
+
+43)Crie um algorítmo que recebe 7 valores dentro de um vetor unidimensional e mostre o total de números pares ao terminar o algorítmo
+44)Crie um algorítmo que utilize vetores para receber 4 registros de alunos, sendo: nome, nota1, nota2 e ao final apresente a média   
+45)Crie um algorítmo que organize um vetor em ordem numérica
+46)Crie um algorítmo que leia o nome de 3 times e partir disso ele deve criar uma tabela de jogos da seguinte forma
+
+Vasco[] X []Flamengo
+Vasco[] X []Botafogo
+Flamengo[] X []Vasco
+Flamengo[] X []Botafogo
+Botafogo[] X []Vasco
+Botafogo[] X []Flamengo
+
+
+
+*** Variáveis compostas - vetores multdimensional***
+
+
+  m: vetor[1..3, 1..2] de inteiro
+
+    L,C
+  m[1,2] <- 4
+
+
+para L <- 1 ate 3 faca
+   para C <- 1 ate 2 faca
+      leia(m[L,C])
+   fimpara
+fimpara
+
+ 
+
+47) 
+  
 
 
 
